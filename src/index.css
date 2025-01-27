@@ -1,0 +1,26 @@
+/* Ensure full height */
+html,
+body {
+  height: 100%;
+}
+
+/* Set root font size for rem scaling */
+html {
+  font-size: 100%; /* 1rem = 16px */
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
